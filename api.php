@@ -6,7 +6,7 @@
     switch ($request) {
         case 'GET':
             getMethod();
-            break;
+            break; 
         case 'POST':
          $data=json_decode(file_get_contents('php://input'),true);
            postMethod($data);
